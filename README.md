@@ -21,4 +21,7 @@ sudo apt-get install nvidia-cuda-toolkit", then make sure your bash profile is c
 $ cuda-install-samples-7.0.sh <working directory>
 $ cd <working directory>/NVIDIA_CUDA-7.0_Samples
 $ make
+$ cd bin/x86_64/linux/release
+$ ./deviceQuery
+$ ./bandwidthTest
 ```
